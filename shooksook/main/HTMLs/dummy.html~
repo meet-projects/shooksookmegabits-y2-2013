@@ -12,15 +12,15 @@
 
 <meta name = "author" content = "MEET Y2">
 
+<link rel="stylesheet" type="text/css" href="project.css">
+
 </head>
 
 <body>
 
 <div>
-<h1> ShookSook </h1>
+<h1 id=logo><b> ShookSook <b></h1>
 </div>
-
-
 
 <div>
 <b>

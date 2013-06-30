@@ -1,0 +1,2 @@
+body {background-image:url('oldcity.JPG');}
+h1#logo {text-align:center; color:'white';}
