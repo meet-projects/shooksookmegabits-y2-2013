@@ -11,4 +11,4 @@ def stores(request):
     return render(request, 'main/stores.html', context)
 
 def maps(request):
-	return render(request, 'main/maps.html'. {})   
+	return render(request, 'main/maps.html', {})   
