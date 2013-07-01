@@ -8,4 +8,4 @@ def stores(request):
     store_list = Store.objects.all()
     context = {'stores':store_list}
     return render(request, 'main/stores.html', context)
-    
+   
