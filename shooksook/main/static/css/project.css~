@@ -20,8 +20,18 @@ h1#logo{text-align:center;}
 
 #stores{
 	position:center;
-	tex-align:center;
+	text-align:center;
 }
 
 #googlemap{text-align:center;}
+
+#menu{
+	position:relative;
+	right: 300px;
+}
+
+#storeInfo{
+	text-align:relative;
+	left: 200px;
+}
 

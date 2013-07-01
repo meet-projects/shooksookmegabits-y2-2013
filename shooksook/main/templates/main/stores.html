@@ -12,36 +12,28 @@
 
 <body>
 
-<div  id = "stores">
 <div id = "logoPic" >
 	<img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "320" height = "233">
 </div>
 
-<div id="container" style="width:500px">
-<div id="header" style="background-color:#FFA500;">
-<h1 style="margin-bottom:0;">Stores</h1></div>
-
-<div id="menu" style="background-color:#FFD700;height:200px;width:200px;float:left;">
-<b>
+<div id="menu">
+<b><h2>
 {% if stores %}
 	{% for x in stores %}
-			{{x.name }}		
+		{{x.name}}
+		<div id = "storeInfo">
+			{{x.info}}		
+		</div>		
 		<br>
 	{% endfor %}
 {% else %}
 	No stores!
 {% endif %}
-
-
-<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
-CONTENT
-
+</h2>
+</b>
 </div>
 
-<div id="footer" style="background-color:FFA500;clear:both;text-align:center;"></div>
-</div>
 
-</div>
 
 </body>
 
