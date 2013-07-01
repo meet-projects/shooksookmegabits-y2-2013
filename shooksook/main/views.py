@@ -1,6 +1,6 @@
 # Create your views here.
 from django.shortcuts import render
-
+from models import Store
 def home(request):
     return render(request, 'main/dummy.html', {})
 
