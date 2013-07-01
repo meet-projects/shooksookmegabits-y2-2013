@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+<title> ShookSook - The Old City Online Marketplace: Stores </title>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/project.css">
+
+</head>
+
+<body>
+
+{% if Store %}
+ <ul>
+	{% for x in Store %}
+		<li>
+			{{x.name }} is a store		
+		</li>
+	{% endfor %}
+</ul>
+{% else %}
+	No stores!
+{% endif %}
+
+</body>
+
+</html>
