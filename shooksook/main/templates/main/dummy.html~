@@ -37,7 +37,7 @@
 
 <div id = "end">
 <a href="submit"><div class="buttonsEnd">Sumbit Your Business</div></a>
-<a href="about"><div class="buttonsEnd">About</div></a>
+<a href="about.html"><div class="buttonsEnd">About</div></a>
 <a href="contact"><div class="buttonsEnd">Contact Us</div></a>
 </div>
 
