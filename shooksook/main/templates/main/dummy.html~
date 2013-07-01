@@ -20,15 +20,15 @@
 <body>
 
 <div id = "logoPic" >
-	<img src = "{{ STATIC_URL }}images/logo.png" alt = "ShookSook Logo" width = "320" height = "172">
+	<img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "600" height = "400">
 </div>
 
 <div>
-<a href="buttons"><div class = "buttons">Stores</div></a>
+<a href="stores"><div class = "buttons">Stores</div></a>
 
 <a href="restaurants"><div class = "buttons">Restaurants</div></a>
 
-<a href="map"><div class = "buttons">Map</div></a>
+<a href="maps"><div class = "buttons">Map</div></a>
 
 <a href="introduction"><div class = "buttons">Introduction</div></a>
 
