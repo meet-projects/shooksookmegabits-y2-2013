@@ -18,6 +18,10 @@ h1#logo{text-align:center;}
 	top: 250px;
 }
 
+#stores{
+	position:center;
+	text-align:center;
+}
 
 #googlemap{text-align:center;}
 

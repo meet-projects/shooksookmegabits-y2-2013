@@ -24,6 +24,10 @@
 </div>
 
 <div>
+<h1>The Online Marketplace of the Old City, bringing it into the 21st century</h1>
+</div>
+
+<div>
 <a href="stores"><div class = "buttons">Stores</div></a>
 
 <a href="restaurants"><div class = "buttons">Restaurants</div></a>
@@ -36,7 +40,7 @@
 </div>
 
 <div id = "end">
-<a href="submit"><div class="buttonsEnd">Sumbit Your Business</div></a>
+<a href="submit"><div class="buttonsEnd">Submit Your Business</div></a>
 <a href="about"><div class="buttonsEnd">About</div></a>
 <a href="contact"><div class="buttonsEnd">Contact Us</div></a>
 </div>

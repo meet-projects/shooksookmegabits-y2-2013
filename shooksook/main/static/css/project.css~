@@ -15,9 +15,13 @@ h1#logo{text-align:center;}
 
 #end{
 	position:relative;
-	top: 200px;
+	top: 250px;
 }
 
+#stores{
+	position:center;
+	tex-align:center;
+}
 
 #googlemap{text-align:center;}
 
