@@ -24,7 +24,7 @@
 </div>
 
 <div>
-<a href="buttons"><div class = "buttons">Stores</div></a>
+<a href="stores"><div class = "buttons">Stores</div></a>
 
 <a href="restaurants"><div class = "buttons">Restaurants</div></a>
 
@@ -34,6 +34,14 @@
 
 <a href="media"><div class = "buttons">Photos & Videos</div></a>
 </div>
+<table border=5>
+<tr>
+<td> <a href="submit"> Sumbit Your Business</a> </td>
+<td> <a href="about"> About US </a></td> 
+<td> <a href="contact"> Contact Us </a></td>
+</tr> 
+</table>
+
 
 </body>
 
