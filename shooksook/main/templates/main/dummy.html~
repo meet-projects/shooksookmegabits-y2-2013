@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+ 
+<html>
+
+<head>
+
+<title> ShookSook - The Old City Online Marketplace </title>
+
+<meta name = "kewords" content = "Market, Stores, Buy, Information">
+
+<meta name = "description" content = "The Online Marketplace of the Old City">
+
+<meta name = "author" content = "MEET Y2">
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/buttons.css">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/project.css">
+
+</head>
+
+<body>
+
+<div id = "logoPic" >
+	<img src = "{{ STATIC_URL }}images/logo.png" alt = "ShookSook Logo" width = "320" height = "172">
+</div>
+
+<div>
+<a href="buttons"><div class = "buttons">Stores</div></a>
+
+<a href="restaurants"><div class = "buttons">Restaurants</div></a>
+
+<a href="map"><div class = "buttons">Map</div></a>
+
+<a href="introduction"><div class = "buttons">Introduction</div></a>
+
+<a href="media"><div class = "buttons">Photos & Videos</div></a>
+</div>
+
+</body>
+
+</html>
