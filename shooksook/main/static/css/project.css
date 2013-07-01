@@ -8,9 +8,15 @@ div {
 
 h1#logo{text-align:center;}
 
-#logoPic{text-align:center;
+#logoPic{
+	text-align:center;
 	margin-bottom: 30px;
 }
+
+#end{
+	text-align:bottom;
+}
+
 
 #googlemap{text-align:center;}
 
