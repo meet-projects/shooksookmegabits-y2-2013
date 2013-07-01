@@ -11,6 +11,12 @@ urlpatterns = patterns('',
     url(r'^home$', views.home, name='home'),
     url(r'^stores$', views.stores, name = 'stores'),
     url(r'^maps$', views.maps, name = 'maps'),
+    url(r'^restaurants$', views.restaurants, name = 'restaurants'),
+    url(r'^introduction$', views.introduction, name = 'introduction'),
+    url(r'^media$', views.media, name = 'media'),
+    url(r'^submit$', views.submit, name = 'submit'),
+    url(r'^about$', views.about, name = 'about'),
+    url(r'^contact$', views.contact, name = 'contact'),
     #url(r'^shooksook/', include('shooksook.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
