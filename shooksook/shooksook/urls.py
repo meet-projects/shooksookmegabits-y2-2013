@@ -8,7 +8,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     url(r'^home$', views.home, name='home'),
-    #url(r'^stores$', views.stores, name = 'stores'),
+    url(r'^stores$', views.stores, name = 'stores'),
     #url(r'^shooksook/', include('shooksook.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
