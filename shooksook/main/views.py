@@ -29,4 +29,4 @@ def about(requset):
 	return render(request, 'main/about.html', {})
 
 def contact(request):
-	return render(request, 'main/submit.html', {})
+	return render(request, 'main/contact.html', {})

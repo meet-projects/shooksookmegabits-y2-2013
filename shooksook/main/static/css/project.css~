@@ -14,8 +14,8 @@ h1#logo{text-align:center;}
 }
 
 #end{
-	text-align:center;
-	text-align:bottom;
+	position:relative;
+	top: 200px;
 }
 
 
