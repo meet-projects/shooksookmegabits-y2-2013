@@ -2,6 +2,10 @@ h3{text-align:center;}
 
 body {background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');}
 
+div {
+	text-align:center;
+}
+
 h1#logo{text-align:center;}
 
 #logoPic{text-align:center;}
