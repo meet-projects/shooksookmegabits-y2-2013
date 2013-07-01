@@ -24,11 +24,11 @@
 </div>
 
 <div>
-<a href="buttons"><div class = "buttons">Stores</div></a>
+<a href="stores"><div class = "buttons">Stores</div></a>
 
 <a href="restaurants"><div class = "buttons">Restaurants</div></a>
 
-<a href="map"><div class = "buttons">Map</div></a>
+<a href="maps"><div class = "buttons">Map</div></a>
 
 <a href="introduction"><div class = "buttons">Introduction</div></a>
 
