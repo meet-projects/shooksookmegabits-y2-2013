@@ -9,5 +9,5 @@ class Store(models.Model):
     info = models.CharField(max_length = 1000)
 
     def storeInfo(self):
-        return HttpResponse("Name: " + self.name + '/n' + "Store Type: " + self.storeType + '/n' + "Adress: "+ slef.adress + '/n' + "Info : " +self.info)
+        return HttpResopnse("Name: " + self.name + '/n' + "Store Type: " + self.storeType + '/n' + "Adress: "+ slef.adress + '/n' + "Info : " +self.info)
 
