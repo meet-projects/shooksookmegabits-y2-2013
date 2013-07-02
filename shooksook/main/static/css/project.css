@@ -48,3 +48,13 @@ h1#logo{text-align:center;}
 .storeTitle{
 	font-weight:bold;
 }
+#youtube{position:relative;
+	top: 50px;
+	
+}
+
+#end2{
+	position:relative;
+	top: 150px;
+}
+
