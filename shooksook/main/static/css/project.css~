@@ -25,13 +25,26 @@ h1#logo{text-align:center;}
 
 #googlemap{text-align:center;}
 
-#menu{
+.menu{
+	text-align: left;
 	position:relative;
-	right: 300px;
+	: 0px;
+}
+.card{
+	border:1px solid black;	
+	width: 50%;
+	padding:15px;
+	background-color:#DBD579;
+	position:relative;
+	left:25%;
 }
 
-#storeInfo{
-	text-align:relative;
-	left: 200px;
+.storeInfo{
+
+	text-align:left;
+	font-size:20px;
 }
 
+.storeTitle{
+	font-weight:bold;
+}

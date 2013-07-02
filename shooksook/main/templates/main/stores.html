@@ -16,21 +16,24 @@
 	<img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "320" height = "233">
 </div>
 
-<div id="menu">
-<b><h2>
+<div class="menu">
+
 {% if stores %}
 	{% for x in stores %}
-		{{x.name}}
-		<div id = "storeInfo">
-			{{x.info}}		
+		<div class ="card">
+		
+		<div class ="storeInfo storeTitle">{{x.name}}</div>
+		<div class ="storeInfo">{{x.storeType}}</div>
+		<div class ="storeInfo">Address: {{x.address}}</div>
+		<div class ="storeInfo">Info: {{x.info}}</div>	
+	
 		</div>		
 		<br>
 	{% endfor %}
 {% else %}
 	No stores!
 {% endif %}
-</h2>
-</b>
+
 </div>
 
 
