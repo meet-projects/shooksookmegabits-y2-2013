@@ -53,6 +53,15 @@ h1#logo{text-align:center;}
 	
 }
 
+#intro{
+	border:1px solid black;	
+	position:relative;
+
+	font-size: 20px;
+	width:60%
+	text-align:center;
+}
+
 #end2{
 	position:relative;
 	top: 150px;
