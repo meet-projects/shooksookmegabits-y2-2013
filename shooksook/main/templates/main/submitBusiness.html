@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+<title> ShookSook - The Old City Online Marketplace: Stores </title>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/project.css">
+
+</head>
+
+<body>
+
+<div id = "logoPic" >
+	<img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "320" height = "233">
+</div>
+
+<div id = "submit_form">
+	<form action="submitBusiness_accepted" method="post">
+	{% csrf_token %}
+	Store Name: <input type="text" name="name"/><br>
+	Store Type (Food, Clothing, Etc.): <input type="text" name="storeType"/><br>
+	Address: <input type="text" name="address"/><br>
+	Info: <input type="text" name="info"/><br>
+	<input type="submit" value="Submit Your Business" />
+	</form>
+</div>
+
+</body>
+
+</html>
+
