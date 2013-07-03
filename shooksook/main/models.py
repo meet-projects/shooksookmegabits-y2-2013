@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -7,6 +8,10 @@ class Store(models.Model):
     storeType = models.CharField(max_length = 20)
     address = models.CharField(max_length = 50)
     info = models.CharField(max_length = 1000)
+
+    
+
+
 
 
 ##    def storeInfo(self):

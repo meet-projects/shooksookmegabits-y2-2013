@@ -39,6 +39,16 @@ h1#logo{text-align:center;}
 	left:20%;
 }
 
+.card_form{
+	border:1px solid black;	
+	width: 20%;
+	padding:15px;
+	background-color:#DBD579;
+	position:relative;
+	left:25%;
+	text-align:left;
+}
+
 .storeInfo{
 
 	text-align:left;
@@ -89,3 +99,16 @@ h1#logo{text-align:center;}
 }
 
 
+#prompt{
+	font-weight:bold;
+	font-size: 20px;
+}
+
+#loginButton{
+	position: relative;
+	right: 5%;
+}
+
+#registerButton{
+	position: relative;
+	left: 5%;
