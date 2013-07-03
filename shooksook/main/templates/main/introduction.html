@@ -6,13 +6,14 @@
 	<meta name = "author" content = "MEET Y2">
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/buttons.css">	
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/project.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/introductio.css">
 </head>
 <body>
 <div id = "logoPic" >
 	<img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "350" height = "233">
 
 
-<div >
+<!--<div >
 
 <br>
 <p></p>
@@ -23,7 +24,20 @@
 <p>
 The Old City of Jerusalem is one of the beautiful places in the whole world. It includes the three monotheistic religions within it, separated into four quarters: The Old City Gates, The Jewish Quarter, The Christian Quarter and The Muslim Quarter. It is a place everyone should explore when visiting Jerusalem.   
 </p>
+</div>-->
+<div>
+<ul id="movieposters">
+   <li>
+      <img src="{{ STATIC_URL }}images/9.jpeg"  width="350" height="450" alt="Computer Hope">
+      <div class="movieinfo">
+         <h3>Introduction </h3>
+         <p>The Old City of Jerusalem is one of the beautiful places in the whole world. It includes the three monotheistic religions within it, separated into four quarters: The Old City Gates, The Jewish Quarter, The Christian Quarter and The Muslim Quarter. It is a place everyone should explore when visiting Jerusalem.  </p>
+         <a href="https://en.wikipedia.org/wiki/Old_City_%28Jerusalem%29" title="Iron Man 2">More info</a>
+      </div>
+   </li>
+</ul>
 </div>
+
 <div id = "end4">
 <a href="submit"><div class="buttonsEnd">Submit Your Business</div></a>
 <a href="about"><div class="buttonsEnd">About</div></a>
