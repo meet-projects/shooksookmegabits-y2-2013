@@ -112,3 +112,10 @@ h1#logo{text-align:center;}
 #registerButton{
 	position: relative;
 	left: 5%;
+}
+#para{
+	text-align: center;
+}
+#para {
+	font-size: 25px;
+}
