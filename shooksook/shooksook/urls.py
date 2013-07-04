@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     url(r'^home$', views.home, name='home'),
     url(r'^stores$', views.stores, name = 'stores'),
     url(r'^maps$', views.maps, name = 'maps'),
-    url(r'^restaurants$', views.restaurants, name = 'restaurants'),
+    url(r'^holy$', views.holy, name = 'holy'),
     url(r'^introduction$', views.introduction, name = 'introduction'),
     url(r'^media$', views.media, name = 'media'),
 

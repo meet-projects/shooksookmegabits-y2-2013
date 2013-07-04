@@ -75,8 +75,8 @@ def stores(request):
 def maps(request):
 	return render(request, 'main/maps.html', {})
 
-def restaurants(request):
-	return render(request, 'main/restaurants.html', {})
+def holy(request):
+	return render(request, 'main/holy.html', {})
 
 def introduction(request):
 	return render(request, 'main/introduction.html', {})

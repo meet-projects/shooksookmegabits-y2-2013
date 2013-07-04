@@ -37,7 +37,8 @@
 * some extra css (like the position, margin etc.) to place it on the correct place.
 * Take note of the translateZ and rotateY properties to enhance the 3d effect.
 */
-.movieinfo { border:10px solid #fcfafa; padding:10px; width:250px; height:290px; background-color:#deddcd; margin:-195px 0 0 55px; position:absolute;
+.movieinfo { border:10px solid #fcfafa; padding:10px; width:160%; height:70%; background-color:#deddcd; margin:-195px 0 0 55px; position:absolute;
+	font-size:25px;
    -moz-box-shadow:0 20px 40px #888; -webkit-box-shadow:0 20px 40px #888;
    -webkit-transform: translateZ(30px) rotateY(30deg);
    -webkit-transition-property: transform, box-shadow, margin; -webkit-transition-duration: 0.5s; }
