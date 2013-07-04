@@ -49,6 +49,11 @@ h1#logo{text-align:center;}
 	text-align:left;
 }
 
+.login_formTEXT{
+	position: relative;
+	right: 5%;
+}
+
 .storeInfo{
 
 	text-align:left;
@@ -106,9 +111,23 @@ h1#logo{text-align:center;}
 
 #loginButton{
 	position: relative;
-	right: 5%;
+
 }
 
 #registerButton{
 	position: relative;
 	left: 5%;
+}
+
+
+#register_formTEXT{
+	float:left;
+
+}
+
+#login_formBOX{
+	float:left;
+	margin-right: 10%;
+	position"
+	right:5%;
+}
