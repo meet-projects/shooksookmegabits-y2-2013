@@ -21,8 +21,8 @@
 {% if stores %}
 	{% for x in stores %}
 		<div class ="card">
-		
 		<div class ="storeInfo storeTitle">{{x.name}}</div>
+		<div class ="storeInfo">Added by {{x.owner.username}}</div>
 		<div class ="storeInfo">{{x.storeType}}</div>
 		<div class ="storeInfo">Address: {{x.address}}</div>
 		<div class ="storeInfo">Info: {{x.info}}</div>	

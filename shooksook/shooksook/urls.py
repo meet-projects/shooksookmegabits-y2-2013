@@ -20,7 +20,7 @@ urlpatterns = patterns('',
     url(r'^profile$', views.profile, name = 'profile'),
 
     url(r'^register$', views.register, name = 'register'),
-    url(r'^log_me_out/$', 'django.contrib.auth.views.logout', {'next_page': '/login'}),
+    url(r'^log_me_out/$', 'django.contrib.auth.views.logout', {'next_page': '/home'}),
 
     url(r'^submitBusiness$', views.submitBusiness, name = 'submitBusiness'),
     url(r'^submitBusiness_accepted$', views.submitBusiness_accepted, name = "submitBusiness_accepted"),

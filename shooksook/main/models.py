@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 
 class Store(models.Model):
     name = models.CharField(max_length = 50)
+    owner = models.ForeignKey(User)
     storeType = models.CharField(max_length = 20)
     address = models.CharField(max_length = 50)
     info = models.CharField(max_length = 1000)
