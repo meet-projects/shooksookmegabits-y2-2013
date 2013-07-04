@@ -91,10 +91,11 @@ def submitBusiness(request):
 
 def submitBusiness_accepted(request):
 	Name = request.POST['name']
+	Owner = request.user
 	StoreType = request.POST['storeType']
 	Address = request.POST['address']
 	Info = request.POST['info']
-	new_store = Store(name = Name, storeType = StoreType, address = Address, info = Info)
+	new_store = Store(name = Name, owner = Owner, storeType = StoreType, address = Address, info = Info)
 	new_store.save()
 	return HttpResponseRedirect('success')
 
