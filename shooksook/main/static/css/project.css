@@ -112,3 +112,12 @@ h1#logo{text-align:center;}
 #registerButton{
 	position: relative;
 	left: 5%;
+}
+#contact {
+	position:relative;
+
+	font-size: 20px;
+	width:60%
+	text-align:center;
+
+}
