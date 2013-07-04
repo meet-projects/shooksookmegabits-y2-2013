@@ -30,7 +30,7 @@ h1#logo{text-align:center;}
 .menu{
 	text-align: left;
 	position:relative;
-	: 0px;
+	
 }
 .card{
 	border:1px solid black;	
@@ -38,7 +38,8 @@ h1#logo{text-align:center;}
 	padding:15px;
 	background-color:#DBD579;
 	position:relative;
-	left:20%;
+	margin-left:auto;
+	margin-right:auto;	
 }
 
 .card_form{
@@ -51,10 +52,17 @@ h1#logo{text-align:center;}
 	text-align:left;
 }
 
+.login_formTEXT{
+	position: relative;
+	right: 5%;
+}
+
 .storeInfo{
 
 	text-align:left;
 	font-size:20px;
+	overflow:hidden;
+	word-wrap:break-word;
 }
 
 .storeTitle{
@@ -107,10 +115,58 @@ h1#logo{text-align:center;}
 }
 
 #loginButton{
-	position: relative;
+	position: relative; 
+f
 	right: 5%;
 }
 
 #registerButton{
 	position: relative;
 	left: 5%;
+}
+#para{
+	text-align: center;
+	font-size: 25px;
+}
+
+#contact {
+	position:relative;
+
+	font-size: 20px;
+	width:60%
+	text-align:center;
+
+}
+
+#register_formTEXT{
+	float:left;
+	visibility:hidden;
+}
+
+#login_formBOX{
+	float:left;
+	margin-right: 4%;
+	margin-left: 4%;
+	position"
+	right:5%;
+	visibility:hidden;
+}
+
+#submit_form{
+	text-align:center;
+	position:relative;
+	left:35%;
+}
+
+#info_area{
+	position: relative;
+	right: 35%;
+}
+
+#submitButton{
+	position: relative;
+	right: 35%;
+}
+.i{
+	font-weight:bold;
+}
