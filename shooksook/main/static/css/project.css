@@ -122,7 +122,7 @@ h1#logo{text-align:center;}
 
 #register_formTEXT{
 	float:left;
-
+	visibility:hidden;
 }
 
 #login_formBOX{
@@ -130,4 +130,24 @@ h1#logo{text-align:center;}
 	margin-right: 10%;
 	position"
 	right:5%;
+	visibility:hidden;
+}
+
+#submit_form{
+	text-align:center;
+	position:relative;
+	left:35%;
+}
+
+#info_area{
+	position: relative;
+	right: 35%;
+}
+
+#submitButton{
+	position: relative;
+	right: 35%;
+}
+.i{
+	font-weight:bold;
 }
