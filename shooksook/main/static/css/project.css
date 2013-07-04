@@ -28,7 +28,7 @@ h1#logo{text-align:center;}
 .menu{
 	text-align: left;
 	position:relative;
-	: 0px;
+	
 }
 .card{
 	border:1px solid black;	
@@ -36,7 +36,8 @@ h1#logo{text-align:center;}
 	padding:15px;
 	background-color:#DBD579;
 	position:relative;
-	left:20%;
+	margin-left:auto;
+	margin-right:auto;	
 }
 
 .card_form{
@@ -58,6 +59,8 @@ h1#logo{text-align:center;}
 
 	text-align:left;
 	font-size:20px;
+	overflow:hidden;
+	word-wrap:break-word;
 }
 
 .storeTitle{
@@ -111,6 +114,7 @@ h1#logo{text-align:center;}
 
 #loginButton{
 	position: relative; 
+f
 	right: 5%;
 }
 
@@ -127,7 +131,8 @@ h1#logo{text-align:center;}
 
 #login_formBOX{
 	float:left;
-	margin-right: 10%;
+	margin-right: 4%;
+	margin-left: 4%;
 	position"
 	right:5%;
 	visibility:hidden;
