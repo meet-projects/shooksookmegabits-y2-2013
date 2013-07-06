@@ -37,7 +37,8 @@ def submitlogin(request):
 
 @login_required
 def profile(request):
-  context = {'username': request.user.username}
+  my_store_list = Store.objects.filter(owner = request.user)
+  context = {'username': request.user.username, 'stores':my_store_list}
   return render(request, 'main/submit/profile.html', context)
 
 #def log_me_out(request):
@@ -64,8 +65,13 @@ def register(request):
 
 ###################################
 
+
+def first(request):
+    return render(request, 'main/first.html', {})
+
 def home(request):
     return render(request, 'main/dummy.html', {})
+
 
 def stores(request):
     store_list = Store.objects.all()

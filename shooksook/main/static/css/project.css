@@ -1,169 +1,175 @@
-
-
 h3{text-align:center;}
 
-body {background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');}
+body {
+background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');
+}
 
 div {
-	text-align:center;
+text-align:center;
 }
 
 h1#logo{text-align:center;}
 
 #logoPic{
-	text-align:center;
-	margin-bottom: 30px;
+text-align:center;
+margin-bottom: 30px;
 }
 
 #end{
-	position:relative;
-	top: 250px;
+position:relative;
+top: 250px;
 }
 
 #stores{
-	position:center;
-	text-align:center;
+position:center;
+text-align:center;
 }
 
 #googlemap{text-align:center;}
 
 .menu{
-	text-align: left;
-	position:relative;
-	
+text-align: left;
+position:relative;
+
 }
 .card{
-	border:1px solid black;	
-	width: 60%;
-	padding:15px;
-	background-color:#DBD579;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;	
+border:1px solid black;	
+width: 60%;
+padding:15px;
+background-color:#DBD579;
+position:relative;
+margin-left:auto;
+margin-right:auto;	
 }
 
 .card_form{
-	border:1px solid black;	
-	width: 20%;
-	padding:15px;
-	background-color:#DBD579;
-	position:relative;
-	left:25%;
-	text-align:left;
+border:1px solid black;	
+width: 20%;
+padding:15px;
+background-color:#DBD579;
+position:relative;
+left:25%;
+text-align:left;
 }
 
 .login_formTEXT{
-	position: relative;
-	right: 5%;
+position: relative;
+right: 5%;
 }
 
 .storeInfo{
 
-	text-align:left;
-	font-size:20px;
-	overflow:hidden;
-	word-wrap:break-word;
+text-align:left;
+font-size:20px;
+overflow:hidden;
+word-wrap:break-word;
 }
 
 .storeTitle{
-	font-weight:bold;
+font-weight:bold;
 }
 #youtube{position:relative;	
-	top: 50px;
-	
+top: 50px;
+
 }
 
 #intro{
-	border:1px solid black;	
-	position:relative;
+border:1px solid black;	
+position:relative;
 
-	font-size: 20px;
-	width:60%
-	text-align:center;
+font-size: 20px;
+width:60%
+text-align:center;
 }
 
 #end2{
-	position:relative;
-	top: 150px;
+position:relative;
+top: 150px;
 }
 
 #end3{
-	position:relative;
-	top: 20px;
+position:relative;
+top: 20px;
 }
 
 #end4{
-	position:relative;
-	top: 200px;
+position:relative;
+top: 200px;
 }
 
 .photos {
-	position: relative;
+position: relative;
         height: 500px;
         width: 400px;
         margin: -100px 0 0 -200px;
         top: 400px;
         left: 38%;
-	position:relative;
-	top: 200px;
+position:relative;
+top: 200px;
 }
 
 
 #prompt{
-	font-weight:bold;
-	font-size: 20px;
+font-weight:bold;
+font-size: 20px;
 }
 
 #loginButton{
-	position: relative; 
+position: relative;
 f
-	right: 5%;
+right: 5%;
 }
 
 #registerButton{
-	position: relative;
-	left: 5%;
+position: relative;
+left: 5%;
 }
 #para{
-	text-align: center;
-	font-size: 25px;
+text-align: center;
+font-size: 25px;
 }
 
+#contact {
+position:relative;
+
+font-size: 20px;
+width:60%
+text-align:center;
 
 }
 
 #register_formTEXT{
-	float:left;
-	visibility:hidden;
+float:left;
+visibility:hidden;
 }
 
 #login_formBOX{
-	float:left;
-	margin-right: 4%;
-	margin-left: 4%;
-	position"
-	right:5%;
-	visibility:hidden;
+float:left;
+margin-right: 4%;
+margin-left: 4%;
+position"
+right:5%;
+visibility:hidden;
 }
 
 #submit_form{
-	text-align:center;
-	position:relative;
-	left:35%;
+text-align:center;
+position:relative;
+left:35%;
 }
 
 #info_area{
-	position: relative;
-	right: 35%;
+position: relative;
+right: 35%;
 }
 
 #submitButton{
-	position: relative;
-	right: 35%;
+position: relative;
+right: 35%;
 }
 .i{
-	font-weight:bold;
+font-weight:bold;
 }
 #contactus{
-	font-size:28px; 
+font-size:28px;
 }
