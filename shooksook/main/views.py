@@ -64,8 +64,13 @@ def register(request):
 
 ###################################
 
+
+def first(request):
+    return render(request, 'main/first.html', {})
+
 def home(request):
     return render(request, 'main/dummy.html', {})
+
 
 def stores(request):
     store_list = Store.objects.all()
