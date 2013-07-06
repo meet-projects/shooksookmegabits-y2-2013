@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     url(r'^home$', views.home, name='home'),
     url(r'^stores$', views.stores, name = 'stores'),
     url(r'^maps$', views.maps, name = 'maps'),
-    url(r'^restaurants$', views.restaurants, name = 'restaurants'),
+    url(r'^holy$', views.holy, name = 'holy'),
     url(r'^introduction$', views.introduction, name = 'introduction'),
     url(r'^media$', views.media, name = 'media'),
 
@@ -20,7 +20,7 @@ urlpatterns = patterns('',
     url(r'^profile$', views.profile, name = 'profile'),
 
     url(r'^register$', views.register, name = 'register'),
-    url(r'^log_me_out/$', 'django.contrib.auth.views.logout', {'next_page': '/logged_out'}),
+    url(r'^log_me_out/$', 'django.contrib.auth.views.logout', {'next_page': '/home'}),
 
     url(r'^submitBusiness$', views.submitBusiness, name = 'submitBusiness'),
     url(r'^submitBusiness_accepted$', views.submitBusiness_accepted, name = "submitBusiness_accepted"),

@@ -1,3 +1,5 @@
+
+
 h3{text-align:center;}
 
 body {background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');}
@@ -66,7 +68,7 @@ h1#logo{text-align:center;}
 .storeTitle{
 	font-weight:bold;
 }
-#youtube{position:relative;
+#youtube{position:relative;	
 	top: 50px;
 	
 }
@@ -96,7 +98,7 @@ h1#logo{text-align:center;}
 }
 
 .photos {
-	position: absolute;
+	position: relative;
         height: 500px;
         width: 400px;
         margin: -100px 0 0 -200px;
@@ -127,10 +129,6 @@ f
 	font-size: 25px;
 }
 
-#contact{
-
-	font-size: 20px;
-	text-align:center;
 
 }
 
@@ -165,4 +163,7 @@ f
 }
 .i{
 	font-weight:bold;
+}
+#contactus{
+	font-size:28px; 
 }

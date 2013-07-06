@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ 
+<html>
+
+<head>
+
+<title> ShookSook - The Old City Online Marketplace </title>
+
+<meta name = "kewords" content = "Market, Stores, Buy, Information">
+
+<meta name = "description" content = "The Online Marketplace of the Old City">
+
+<meta name = "author" content = "MEET Y2">
+
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/buttons.css">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/project.css">
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/introductio.css">
+</head>
+
+<body>
+
+	<div id = "logoPic">
+		<a href = "home"><img src = "{{ STATIC_URL }}images/logo3.png" alt = "ShookSook Logo" width = "320" height = "233"></a>
+	</div>
+
+
+<div id="sheet">
+<ul id="movieposters">
+   <li style = "margin-left:-10%;">
+      <span class="oldcity"><img src="{{ STATIC_URL }}images/church.jpg" width="250" height="400" alt="7" /></span>
+      <div class="movieinfo">
+         <h3>Church of the Holy Sepulchre</h3>
+         <p>It's also called the Basilica of the Holy Sepulchre, or the Church of the Resurrection by Eastern Christians, is a church within the Christian Quarter of the walled Old City of Jerusalem. It is a few steps away from the Muristan.</p>
+        <a href="https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre" title="Iron Man 2">More info</a>
+      </div>
+   </li>
+   <!-- More movie posters here -->
+<li style="margin-left:20%;">
+       <span class="oldcity"><img src="{{ STATIC_URL }}images/wall.jpg" width="250" height="400"" alt="7" /></sapn>
+      <div class="movieinfo">
+         <h3>The Western Wall</h3>
+         <p>Is located in the Old City of Jerusalem at the foot of the western side of the Temple Mount. It is a remnant of the ancient wall that surrounded the Jewish Temple's courtyard</p>
+         <a href="http://en.wikipedia.org/wiki/Western_Wall" title="Iron Man 2">More info</a>
+      </div>
+   </li>
+<li style="margin-left:20%;">
+       <span class="oldcity"><img src="{{ STATIC_URL }}images/dome.jpg" width="250" height="400"" alt="7" /></sapn>
+      <div class="movieinfo">
+         <h3>Dome of the Rock</h3>
+         <p> is a shrine located on the Temple Mount in the Old City of Jerusalem. The structure has been refurbished many times since its initial completion in 691 CE at the order of Umayyad Caliph Abd al-Malik. </p>
+         <a href="https://en.wikipedia.org/wiki/Dome_of_the_Rock" title="Iron Man 2">More info</a>
+      </div>
+   </li>
+</ul>
+</div>
+
+<div id = "end4">
+<a href="submitBusiness"><div class="buttonsEnd">Submit Your Business</div></a>
+<a href="about"><div class="buttonsEnd">About</div></a>
+<a href="contact"><div class="buttonsEnd">Contact Us</div></a>
+<a href="log_me_out"><div class="buttonsEnd">Logout</div></a>
+</body>
+
+</html>
