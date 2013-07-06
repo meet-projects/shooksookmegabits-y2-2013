@@ -19,10 +19,35 @@
 </a></div>
 
 <div class = "card"><h1>{{ user.first_name }}, You are succesfully logged in! Now you can submit your business here:</h1>
-</div>
 <div>
 <a href="submitBusiness"><div class="buttonsEnd">Submit Your Business</div></a>
 </div>
+</div>
+
+<br>
+
+<h1><div> Your Stores</div> </h1>
+<div class="menu">
+
+{% if stores %}
+	{% for x in stores %}
+		<div class ="card">
+		<div class ="storeInfo storeTitle">{{x.name}}</div>
+		<div class ="storeInfo">Added by {{x.owner.username}}</div>
+		<div class ="storeInfo">{{x.storeType}}</div>
+		<div class ="storeInfo">Address: {{x.address}}</div>
+		<div class ="storeInfo">Info: {{x.info}}</div>	
+	
+		</div>		
+		<br>
+	{% endfor %}
+{% else %}
+	No stores!
+{% endif %}
+
+</div>
+
+
 </body>
 
 </html>
