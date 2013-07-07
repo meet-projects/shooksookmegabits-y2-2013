@@ -1,7 +1,11 @@
 h3{text-align:center;}
 
 body {
+<<<<<<< HEAD
 background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');
+=======
+	background-image:url('../images/OldCity2Jerusalem01_ST_06.jpg');
+>>>>>>> 7676d8dd91e9264f41cb38e48f34655c8f5403ab
 }
 
 div {
